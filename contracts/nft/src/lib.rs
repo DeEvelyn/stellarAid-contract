@@ -390,3 +390,6 @@ impl NftOwnership {
             .expect("NFT not found")
     }
 }
+
+#[cfg(test)]
+mod test;
